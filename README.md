@@ -1,7 +1,7 @@
 # Hokudai Dissertation
 
 ## Introduction
-This is a LaTeX template based on [Dissertate Project](https://github.com/suchow/Dissertate).
+This is a LaTeX template based on [Dissertate Project](https://github.com/suchow/Dissertate). [Sample](https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/70225/1/Zhai_HongJie.pdf)
 
 ## Getting started
 1. Install LaTeX. For Mac OS X, we recommend MacTex (http://tug.org/mactex/); for Windows, MiKTeX (http://miktex.org/); and for Ubuntu, Tex Live (`sudo apt-get install texlive-full`)
