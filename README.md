@@ -1,4 +1,4 @@
-# Hokudai Dissertation
+# LaTeX Template for Hokudai Dissertation
 
 ## Introduction
 This is a LaTeX template based on [Dissertate Project](https://github.com/suchow/Dissertate). See the sample [HERE](https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/70225/1/Zhai_HongJie.pdf).
