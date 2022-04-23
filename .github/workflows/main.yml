@@ -37,7 +37,8 @@ jobs:
           path: main.pdf
       - name: Release PDF
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, /refs/tags/v')
+        if: startsWith(github.ref, '/refs/tags/v')
         with:
           files: main.pdf
+          body_path: CHANGELOG.md
       
