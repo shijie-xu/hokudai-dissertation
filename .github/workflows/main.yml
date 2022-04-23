@@ -28,17 +28,17 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: dissertation.tex.tex
+          root_file: dissertation.tex
           latex_use_xelatex: true
       - name: Upload PDF
         uses: actions/upload-artifact@v2
         with:
           name: PDF
-          path: dissertation.tex.pdf
+          path: dissertation.pdf
       - name: Release PDF
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, '/refs/tags/v')
         with:
-          files: dissertation.tex.pdf
+          files: dissertation.pdf
           body_path: CHANGELOG.md
       
