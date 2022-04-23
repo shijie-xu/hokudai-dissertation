@@ -26,7 +26,7 @@ jobs:
       - name: Set up Git Repository
         uses: actions/checkout@v2
       - name: Compile LaTeX document
-        uses: xu-chaeng/latex-action@v2
+        uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
           latex_use_xelatex: true
